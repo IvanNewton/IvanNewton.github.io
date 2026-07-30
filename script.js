@@ -2,13 +2,6 @@
 // into the containers in index.html. Edit the JSON files to update your
 // content — you shouldn't need to touch this file.
 
-const RARITY_COLORS = {
-  legendary: "var(--gold)",
-  epic: "var(--ember)",
-  rare: "var(--teal)",
-  common: "var(--muted)"
-};
-
 async function loadJSON(path) {
   const res = await fetch(path);
   if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
@@ -20,7 +13,6 @@ function renderProjects(projects) {
   if (!grid) return;
 
   grid.innerHTML = projects.map(p => {
-    const rarityColor = RARITY_COLORS[p.rarity] || RARITY_COLORS.common;
     const tags = (p.tags || []).map(t => `<span class="pip">${escapeHTML(t)}</span>`).join("");
     return `
       <article class="project-card" style="--rarity-color: ${rarityColor}">
