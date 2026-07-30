@@ -199,20 +199,6 @@ section h2::before {
   gap: 1.5rem;
 }
 
-.project-card {
-  --rarity-color: var(--muted);
-  background: linear-gradient(160deg, var(--ink-850), var(--ink-800));
-  border: 1px solid var(--border-hair);
-  border-top: 3px solid var(--rarity-color);
-  border-radius: var(--radius);
-  padding: 1.4rem 1.4rem 1.6rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
-  position: relative;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-}
-
 .project-card:hover,
 .project-card:focus-within {
   transform: translateY(-4px);
