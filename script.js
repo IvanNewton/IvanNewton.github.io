@@ -15,8 +15,7 @@ function renderProjects(projects) {
   grid.innerHTML = projects.map(p => {
     const tags = (p.tags || []).map(t => `<span class="pip">${escapeHTML(t)}</span>`).join("");
     return `
-      <article class="project-card" style="--rarity-color: ${rarityColor}">
-        <span class="rarity-tag">${escapeHTML(p.rarity || "common")}</span>
+      <article class="project-card">
         <h3>${escapeHTML(p.title)}</h3>
         <div class="project-meta">${escapeHTML(p.year || "")}</div>
         <p class="desc">${escapeHTML(p.description || "")}</p>
