@@ -1,6 +1,6 @@
 [
   {
-    "title": "Into the Woods",
+    "title": "Into the Rotten Grove",
     "year": "2025–Present",
     "description": "A Slay the Spire-inspired 2D turn-based roguelike built in Unity. Procedurally generated 5-column node maps, a dice-based action economy, and a boon/loyalty system with rewards at key combat thresholds.",
     "tags": ["Unity", "C#", "Game Design", "Procedural Generation"],
