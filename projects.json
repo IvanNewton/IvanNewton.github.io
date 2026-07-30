@@ -2,7 +2,6 @@
   {
     "title": "Into the Woods",
     "year": "2025–Present",
-    "rarity": "legendary",
     "description": "A Slay the Spire-inspired 2D turn-based roguelike built in Unity. Procedurally generated 5-column node maps, a dice-based action economy, and a boon/loyalty system with rewards at key combat thresholds.",
     "tags": ["Unity", "C#", "Game Design", "Procedural Generation"],
     "link": "https://github.com/IvanNewton/IntoTheWoods",
@@ -11,7 +10,6 @@
   {
     "title": "Project Two",
     "year": "2024",
-    "rarity": "rare",
     "description": "Short description of what this project does and what role you played in building it.",
     "tags": ["Tag One", "Tag Two"],
     "link": "https://github.com/yourusername/project2",
@@ -20,7 +18,6 @@
   {
     "title": "MKU",
     "year": "2023",
-    "rarity": "common",
     "description": "MKU is a fast-paced psychedelic first-person shooter set in an alternative 1960's-1970's that asks the question of: What if MKUltra actually worked? ",
     "tags": ["Game Design", "Blender", "3d Modeling", "Texture Painting"],
     "link": "https://jhitz.itch.io/mku-demo",
