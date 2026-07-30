@@ -199,25 +199,24 @@ section h2::before {
   gap: 1.5rem;
 }
 
+.project-card {
+  background: linear-gradient(160deg, var(--ink-850), var(--ink-800));
+  border: 1px solid var(--border-hair);
+  border-top: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.4rem 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
 .project-card:hover,
 .project-card:focus-within {
   transform: translateY(-4px);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35), 0 0 0 1px var(--rarity-color);
-}
-
-.project-card .rarity-tag {
-  position: absolute;
-  top: -0.55rem;
-  right: 1rem;
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  background: var(--rarity-color);
-  color: var(--ink-950);
-  padding: 0.15rem 0.5rem;
-  border-radius: 3px;
-  font-weight: 600;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
 }
 
 .project-card h3 {
